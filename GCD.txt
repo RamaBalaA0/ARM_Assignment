@@ -1,0 +1,18 @@
+#Program to find GCD of Numbers present in register R2,R7 and result can be seen in R2.
+
+     AREA     appcode, CODE, READONLY
+     EXPORT __main
+	 ENTRY 
+__main  FUNCTION	
+	
+		MOV R2,#14
+		MOV R7,#8
+LOOP	CMP R2,R7
+		ITE GT
+		SUBGT R2,R2,R7
+		SUBLE R7,R7,R2
+		BNE LOOP
+
+stop B stop ; stop program
+     ENDFUNC
+     END
