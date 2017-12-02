@@ -8,13 +8,17 @@ Implement a Circular queue using ARM assembly Language instruction set
 
 Assignement 2 : 
 
-1. Implement Fibonacci  series using Cortex M4 Ans:Fibonacci.s
+1. Implement Fibonacci  series using Cortex M4 
+Ans:Fibonacci.s
 
-2. Given three number find the largest of the three using Cortex M4 Ans: Largest.s
+2. Given three number find the largest of the three using Cortex M4 
+Ans: Largest.s
 
-3.  Given a number find out whether it is even or ODD in Cortex M4  Ans: Even_odd.s
+3.  Given a number find out whether it is even or ODD in Cortex M4 
+Ans: Even_odd.s
 
-4. Can we do nested IF-Then else in CORTEX –M4 ? Ans:Assign2.pdf
+4. Can we do nested IF-Then else in CORTEX –M4 ? 
+Ans:Assign2.pdf
 
 Try it out on your simulator ….
 
@@ -38,4 +42,7 @@ while (a != b)
 
 Assignment 3:
 
+Implement exponential series
+Ans: epowerx.s
 
+Answers to Reading assigment ---- Reading.pdf
