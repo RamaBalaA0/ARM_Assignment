@@ -16,10 +16,8 @@ __main  FUNCTION
 	MOV R0,#20				;//Number of Terms which determines the accuracy
 	VMOV.F32 S1,#5			;//Exponent Power		
 	BL epower
-	VMOV.F32 S0,S4			;//End result of Power series
-	
 
-epower     MOV R2,#1				;Loop Variable Register
+epower  MOV R2,#1				;Loop Variable Register
 		VMOV.F32 S3,#1.0		;Temporary Register
 		VMOV.F32 S4,#1.0		;Sum Register
 L1		CMP R0,R2
@@ -31,6 +29,8 @@ L1		CMP R0,R2
 		ADDGE R2,R2,#1
 		BGE L1
 
+	VMOV.F32 S0,S4				;//End result of Power series
+	
 stop B stop ; stop program
      ENDFUNC
      END
